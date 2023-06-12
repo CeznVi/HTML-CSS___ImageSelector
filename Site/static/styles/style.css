@@ -52,6 +52,32 @@ body{
 	margin: 5px 0;
 }
 
-.GoToLeftImage{
+.GoToPrevImage{
+	display: block;
+	background-image: url("../img/prev.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	left: 4px;
+	bottom: 218px;
+}
 
+.GoToNextImage{
+	display: block;
+	background-image: url("../img/next.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 35px;
+	width: 35px;
+	position: absolute;
+	right: 4px;
+	bottom: 218px;
+}
+
+.ContainerForManySmallImages{
+	margin-top: 12px;
+	width: inherit;
+	height: 63px;
 }
