@@ -2,102 +2,56 @@
     margin: 0px;
     padding: 0px;
 }
-/* html, body{
-    height: 10000px;
-    background-color: antiquewhite;
 
+/* УДАЛИТЬ */
+body{
+
+    background-image: url("../../../Task/TASK.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
-
-
-#Banner{
-    width: 400px;
-    height: 300px;
-    position: fixed;
-    bottom: 15px;
-    right: 15px;
-    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
-    border-radius: 6px;
-}
-
-.BannerLogo{
-    border-radius: 6px;
-}
-
-.BannerButton {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-	background:linear-gradient(to bottom, #44c767 5%, #54c716 100%);
-	background-color:#44c767;
-	border-radius:42px;
-	border:6px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:16px;
-	padding:8px 17px;
-	text-decoration:none;
-	text-shadow:-4px 3px 0px #2f6627;
-}
-.BannerButton:hover {
-	background:linear-gradient(to bottom, #54c716 5%, #44c767 100%);
-	background-color:#254f0e;
-}
-.BannerButton:active {
-	position:relative;
-	top:1px;
-}
-
-
-.myButton {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-
-	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
-	background-color:#f24537;
-	border-radius:6px;
-	border:1px solid #d02718;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:2px 5px;
-	text-decoration:none;
-	&:hover {
-	background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
-	background-color:#000000;
-}
- }
-
- .myButton:hover{
-    color: black;
- } */
+/* УДАЛИТЬ КОНЕЦ*/
 
  .ContainerImageCarusel{
-    width: 970px;
-    height: 658px;
-    margin: 0 auto;
-    padding: 30px;
-
-    border: 1px solid red;
-    background-image: url("../img/background.png");
-    background-repeat: repeat;
-
-
+    width: 976px;
+    height: 650px;
+    /* background-image: url("../img/background.png");
+    background-repeat: repeat; */
  }
 
-
 .ContainerImageCarusel_Preview{
-
-    border: 1px solid green;
-
+	width: 862px;
+	height: 549px;
+	margin: 51px 58px;
+	border: 1px solid red;
 }
 
-.ContainerImageCarusel_PreviewIMG{
-    width: 100%;
-    
+.ContainerBigImage_Preview{
+	width: inherit;
+	height: 473px;
+	position: relative;
+	/* background-image: url("../img/3.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 138%; */
+	box-shadow: 0px 0px 8px 1px rgba(124,124,126,1);
+}
+
+.BigImage_Preview_Caption{
+	width: inherit;
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	background-color: rgb(246, 247, 249, 0.6);
+}
+
+.BigImage_Preview_CaptionText{
+	font-size: 17px;
+	text-indent: 10px;
+	margin: 5px 0;
+}
+
+.GoToLeftImage{
+
 }
